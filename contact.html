@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Meta tags and links to bootstrap stylesheets google font and Javascript -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="contact information form" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+  </script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+    integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
+  </script>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital@1&family=Roboto:wght@500&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <title>Contact Info</title>
+</head>
+
+<body class="bg-success">
+  <!-- Nav bar from Bootstrap, links between the 3 different pages -->
+  <nav class="sticky-top">
+    <ul class="nav nav-tabs fixed-top">
+      <!-- Link and reference anchor for main page -->
+      <li class="nav-item">
+        <a class="nav-link" href="index.html">Main</a>
+      </li>
+      <!-- Link and reference anchor for portfolio page -->
+      <li class="nav-item">
+        <a class="nav-link" href="portfolio.html">Portfolio</a>
+      </li>
+      <!-- Link and reference anchor for contact page -->
+      <li class="nav-item">
+        <a class="nav-link active" href="contact.html">Contact</a>
+      </li>
+    </ul>
+  </nav>
+  <article class="container-fluid mt-3">
+    <div class="row contact-form">
+      <!-- Setting grid and column size, adjusted for device responsiveness -->
+      <section class="col-xs-12 col-sm-12 col-md-12 col-lg-6 py-3 mb-3">
+        <!-- Form group container -->
+        <form class="form-container">
+          <h1>Contact</h1>
+          <hr>
+          <!-- Name form -->
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" class="form-control" id="name" placeholder="Enter your name">
+          </div>
+          <!-- Email form -->
+          <div class="form-group">
+            <label for="email-form">Email address</label>
+            <input type="email" class="form-control" id="email-form" aria-describedby="email-form"
+              placeholder="example@email.com">
+          </div>
+          <!-- Message form -->
+          <div class="form-group">
+            <label for="exampleFormControlTextarea1">Leave a message</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="5"></textarea>
+          </div>
+          <!-- Submit button -->
+          <button type="submit" class="btn btn-primary btn-block">Submit</button>
+        </form>
+      </section>
+    </div>
+  </article>
+  <!-- Footer -->
+  <footer class="footer">Copyright</footer>
+</body>
+
+</html>

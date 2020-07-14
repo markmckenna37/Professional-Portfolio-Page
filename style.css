@@ -1,0 +1,55 @@
+/* adding margin to main page image */
+img {
+    margin: 10px;
+}
+    /* background color for nav bar */
+ul {
+    background: rgb(245, 243, 243);
+}
+/* box effects for the body of all 3 pages. box radius and shadow */
+.form-container,
+.portfolio,
+.portfolio-head {
+    background: rgb(245, 243, 243);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 0 #000;
+    margin: 30px 0 0 0;
+    height: auto;
+}
+/* box effects for the body of all 3 pages. box radius and shadow, extra margin */
+.about-me {
+    background: rgb(245, 243, 243);
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 0 #000;
+    margin: 2rem 0 0 2rem;
+}
+/* adjusting space for portfolio page */
+.portfolio {
+    padding-left: 10px;
+}
+/* effects for footer, adjusting font color size and placement */
+footer {
+    font-size: 25px;
+    text-align: center;
+    color: lightgray;
+}
+/* adjusting figure caption text */
+.figcaption {
+    font-size: 20px;
+    margin-left: 2%;
+}
+/* adding google font and text effects to header*/
+h3,
+h5 {
+    padding-left: 7%;
+    font-family: 'Noto Sans', sans-serif;
+}
+/* adding google font and text effects to nav, footer, and headings */
+nav,
+footer,
+h1 {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}

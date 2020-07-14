@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Meta tags and links to bootstrap stylesheets google font and Javascript -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="layout for portfolio links" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+  </script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+    integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
+  </script>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital@1&family=Roboto:wght@500&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <title>My Portfolio</title>
+</head>
+
+<body class="bg-success">
+  <!-- Nav bar from Bootstrap, links between the 3 different pages, with sticky positioning  -->
+  <nav class="sticky-top">
+    <ul class="nav nav-tabs">
+      <!-- Link and reference anchor for main page -->
+      <li class="nav-item">
+        <a class="nav-link" href="index.html">Main</a>
+      </li>
+      <!-- Link and reference anchor for portfolio page -->
+      <li class="nav-item">
+        <a class="nav-link active" href="portfolio.html">Portfolio</a>
+      </li>
+      <!-- Link and reference anchor for contact page -->
+      <li class="nav-item">
+        <a class="nav-link" href="contact.html">Contact</a>
+      </li>
+    </ul>
+  </nav>
+  <section>
+    <!-- Setting a fluid container using bootstrap -->
+    <div class="row portfolio-head m-4">
+      <h1>Portfolio</h1>
+    </div>
+    <section class="container-fluid ml-1">
+      <section class="row portfolio">
+        <!-- Setting grid and column size, adjusted for device responsiveness -->
+        <figure class="col-xs-3 col-sm-6 col-md-6 col-lg-6">
+          <!-- Image with bootstrap class img-thumbnail -->
+          <img src="Assets/Images/hockey.jpg" class="img-fluid img-thumbnail" alt="image depicting the main page for a future hockey website">
+          <figcaption class="figcaption">Hockey stats website, coming soon!</figcaption>
+        </figure>
+        <!-- Setting grid and column size, adjusted for device responsiveness -->
+        <figure class="col-xs-3 col-sm-6 col-md-6 col-lg-6">
+          <!-- Image with bootstrap class img-thumbnail -->
+          <img src="Assets/Images/menswear.jpg" class="img-fluid img-thumbnail" alt="image depicting the main page for a future menswear website">
+          <figcaption class="figcaption">Menswear gallery, coming soon!</figcaption>
+        </figure>
+        <!-- Setting grid and column size, adjusted for device responsiveness -->
+        <figure class="col-xs-3 col-sm-6 col-md-6 col-lg-6">
+          <!-- Image with bootstrap class img-thumbnail -->
+          <img src="Assets/Images/gardening.jpg" class="img-fluid img-thumbnail" alt="image depicting the main page for a future gardening tips website">
+          <figcaption class="figcaption">Gardening tips, coming soon!</figcaption>
+        </figure>
+        <!-- Setting grid and column size, adjusted for device responsiveness -->
+        <figure class="col-xs-3 col-sm-6 col-md-6 col-lg-6">
+          <!-- Image with bootstrap class img-thumbnail -->
+          <img src="Assets/Images/boxing.jpg" class="img-fluid img-thumbnail" alt="image depicting the main page for a future boxing gym website">
+          <figcaption class="figcaption">Boxing gym website, coming soon!</figcaption>
+        </figure>
+        <!-- Setting grid and column size, adjusted for device responsiveness -->
+        <figure class="col-xs-3 col-sm-6 col-md-6 col-lg-6">
+          <!-- Image with bootstrap class img-thumbnail -->
+          <img src="Assets/Images/naturephotography.jpg" class="img-fluid img-thumbnail" alt="image depicting the main page for a nature photography website">
+          <figcaption class="figcaption">Nature photography gallery, coming soon!</figcaption>
+        </figure>
+        <!-- Setting grid and column size, adjusted for device responsiveness -->
+        <figure class="col-xs-3 col-sm-6 col-md-6 col-lg-6">
+          <!-- Image with bootstrap class img-thumbnail -->
+          <img src="Assets/Images/pingpong.jpg" class="img-fluid img-thumbnail" alt="image depicting the main page for a future alternative sports website">
+          <figcaption class="figcaption">Alternative sports league, coming soon!</figcaption>
+        </figure>
+      </section>
+    </section>
+  </section>
+  <hr>
+  <!-- Footer -->
+  <footer class="footer fixed-bottom">Copyright</footer>
+</body>
+
+</html>
