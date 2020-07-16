@@ -1,4 +1,7 @@
 /* adding margin to main page image */
+body {
+    background-color: rgba(0, 119, 255, 0.5)
+}
 img {
     margin: 10px;
 }
