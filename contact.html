@@ -20,6 +20,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital@1&family=Roboto:wght@500&display=swap"
     rel="stylesheet">
   <link rel="stylesheet" href="style.css">
+  <script rel="script" src="script.js"></script>
   <title>Contact Info</title>
 </head>
 
@@ -44,9 +45,9 @@
   <article class="container-fluid mt-3">
     <div class="row contact-form">
       <!-- Setting grid and column size, adjusted for device responsiveness -->
-      <section class="col-xs-12 col-sm-12 col-md-12 col-lg-6 py-3 mb-3">
+      <section class="col-12 col-sm-12 col-md-12 col-lg-8 py-3 mb-3">
         <!-- Form group container -->
-        <form class="form-container">
+        <form class="form-container" action="mailto:markmckenna37@gmail.com" method="post" enctype="text/plain"> 
           <h1>Contact</h1>
           <hr>
           <!-- Name form -->
@@ -66,7 +67,7 @@
             <textarea class="form-control" id="exampleFormControlTextarea1" rows="5"></textarea>
           </div>
           <!-- Submit button -->
-          <button type="submit" class="btn btn-primary btn-block">Submit</button>
+          <button type="submit" class="btn btn-primary btn-block" id="submit" >Submit</button>
         </form>
       </section>
     </div>

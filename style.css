@@ -23,7 +23,7 @@ ul {
     padding: 15px;
     border-radius: 10px;
     box-shadow: 0 0 10px 0 #000;
-    margin: 2rem 0 0 2rem;
+    margin: 2rem 0 0 10px;
 }
 /* adjusting space for portfolio page */
 .portfolio {
@@ -42,9 +42,13 @@ footer {
 }
 /* adding google font and text effects to header*/
 h3,
+h4,
 h5 {
     padding-left: 7%;
     font-family: 'Noto Sans', sans-serif;
+}
+.statement {
+    margin: 1em 0 1em 2em;
 }
 /* adding google font and text effects to nav, footer, and headings */
 nav,
@@ -52,4 +56,7 @@ footer,
 h1 {
     font-family: 'Roboto', sans-serif;
     text-align: center;
+}
+a {
+    margin-left: 11px;
 }
